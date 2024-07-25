@@ -1,0 +1,14 @@
+.step h3 {
+  color: var(--text-dark);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+
+.step p {
+  color: #6d6d6d;
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,16 @@
+#offer-sec{
+    background-image: url(/public/VectorUP.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: left;
+
+}
+
+.offer-text h3{
+    font-size: 20px;
+}
+
+.offer-text p{
+    font-size: 16px;
+    color: #6D6D6D;
+}

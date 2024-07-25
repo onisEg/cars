@@ -1,0 +1,43 @@
+#download {
+  background-image: url(/public/VectorUP.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+}
+
+.sec-2 article h1 span {
+  color: var(--blue);
+  position: relative;
+}
+
+.sec-2 article h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.form {
+}
+.form input {
+  background-color: #cedcff;
+  padding: 5px 20px;
+}
+
+#download .btn-send {
+  background-color: var(--blue) !important;
+  padding: 5px 45px;
+  color: white !important;
+
+  &:hover {
+    border: 1px solid var(--blue) !important;
+    background-color: white !important;
+    color: black !important;
+  }
+  &:hover a {
+    color: var(--blue) !important;
+  }
+}
+
+#download .btn-send a {
+  color: white;
+}
+
+

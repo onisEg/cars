@@ -1,0 +1,18 @@
+#navbar .btn-info {
+  background-color: #1572d3 !important;
+  color: white !important;
+  &:hover {
+    border: 1px solid #1572d3 !important;
+    background-color: white !important;
+    color: black !important;
+  }
+}
+
+#navbar .btn {
+  padding: 5px 20px;
+}
+
+#navbar .nav-item {
+  padding: 0px 10px;
+  font-size: 15px;
+}

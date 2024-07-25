@@ -1,0 +1,33 @@
+
+.sec-1 article{
+    max-width: 23%;
+    margin-left: 10vw;
+}
+.sec-1 article h1 span{
+    color: var(--blue);
+    position: relative;
+
+}
+
+.sec-1 article h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+.sec-1 img{
+    max-width: 60%;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    0%{
+        display: none;
+        max-width: 20%;
+    }
+    100%{
+        display: inline;
+        max-width: 60%;
+    }
+}

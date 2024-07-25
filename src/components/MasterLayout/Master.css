@@ -1,0 +1,6 @@
+.hero-sec {
+  background-image: url(/public/biglogo.svg);
+  background-position-x: right;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
