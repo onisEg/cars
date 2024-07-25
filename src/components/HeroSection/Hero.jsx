@@ -1,5 +1,5 @@
 import React from "react";
-import './Hero.css'
+import "./Hero.css";
 
 export default function Hero() {
   return (
@@ -14,11 +14,11 @@ export default function Hero() {
             Android device.
           </p>
           <div className="d-flex ">
-            <img className="img-fluid " src="/public/google play.png" alt="" />
-            <img className=" mx-3" src="/public/app store.png" alt="" />
+            <img className="img-fluid " src="/google play.png" alt="" />
+          <img className=" mx-3" src="/app_store.png" alt="" />
           </div>
         </article>
-        <img className="" src="/public/carHome.png" alt="" />
+        <img className="" src="/carHome.png" alt="" />
       </div>
     </>
   );

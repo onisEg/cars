@@ -14,7 +14,7 @@ export default function Steps() {
             <div className="text-center">
               <img
                 className="img-fluid my-3"
-                src="/public/locationImg.svg"
+                src="/locationImg.svg"
                 alt=""
               />
               <h3>Choose location</h3>
@@ -23,14 +23,14 @@ export default function Steps() {
           </div>
           <div className="col-md-4 step">
             <div className="text-center">
-              <img className="img-fluid my-3" src="/public/pickup.svg" alt="" />
+              <img className="img-fluid my-3" src="/pickup.svg" alt="" />
               <h3>Pick-up date</h3>
               <p>Select your pick up date and time to book your car</p>
             </div>
           </div>
           <div className="col-md-4 step">
             <div className="text-center">
-              <img className="img-fluid my-3" src="/public/book.svg" alt="" />
+              <img className="img-fluid my-3" src="/book.svg" alt="" />
               <h3>Book your car</h3>
               <p>Book your car and we will deliver it directly to you</p>
             </div>

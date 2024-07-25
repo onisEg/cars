@@ -26,7 +26,7 @@ export default function Popular() {
       <div id="popular" className="container py-5">
         <div className="search  d-flex align-items-center form-control">
           <span>
-            <img src="/public/location.svg" alt="" />
+            <img src="/location.svg" alt="" />
           </span>
           <input type="text" className="" placeholder="Search By Name" />
           <button className="btn btn-info ">

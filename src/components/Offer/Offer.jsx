@@ -9,7 +9,7 @@ export default function Offer() {
           <div className="row">
             <div className="col-md-6  d-flex align-items-center">
               <div className="offer-img">
-                <img className="img-fluid" src="/public/Audi 1.png" alt="" />
+                <img className="img-fluid" src="/Audi 1.png" alt="" />
               </div>
             </div>
             <div className="col-md-6">
@@ -24,7 +24,7 @@ export default function Offer() {
                       <div className="img">
                         <img
                           className="img-fluid"
-                          src="/public/money icon.png"
+                          src="/money icon.png"
                           alt=""
                         />
                       </div>
@@ -46,7 +46,7 @@ export default function Offer() {
                       <div className="img">
                         <img
                           className="img-fluid"
-                          src="/public/driver icon.png"
+                          src="/driver icon.png"
                           alt=""
                         />
                       </div>
@@ -68,7 +68,7 @@ export default function Offer() {
                       <div className="img">
                         <img
                           className="img-fluid"
-                          src="/public/24.png"
+                          src="/24.png"
                           alt=""
                         />
                       </div>
@@ -90,7 +90,7 @@ export default function Offer() {
                       <div className="img">
                         <img
                           className="img-fluid"
-                          src="/public/chat icon.png"
+                          src="/chat icon.png"
                           alt=""
                         />
                       </div>

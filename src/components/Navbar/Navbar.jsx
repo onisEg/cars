@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav id="navbar" className="navbar navbar-expand-lg container pt-4">
         <div className="container-fluid">
           <Link className="navbar-brand" to="home">
-            <img src="/public/rent cars logo.png" alt="" />
+            <img src="/rent cars logo.png" alt="" />
           </Link>
           <button
             className="navbar-toggler"

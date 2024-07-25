@@ -15,7 +15,7 @@ export default function Testimonials() {
               <div className="px-3">
                 <div className="row testimonial-card bg-white ">
                   <div className="col-md-6 px-0">
-                    <img className="img-fluid" src="/public/hero1.png" alt="" />
+                    <img className="img-fluid" src="/hero1.png" alt="" />
                   </div>
                   <div className="col-md-6 d-flex align-items-center ">
                     <div className="testimonial-content ">
@@ -23,11 +23,11 @@ export default function Testimonials() {
                         5.0 <small>star</small>
                       </div>
                       <div className="stars">
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
                       </div>
                       <p>
                         “I feel very secure when using caretall's services. Your
@@ -45,7 +45,7 @@ export default function Testimonials() {
               <div className="px-3">
                 <div className="row testimonial-card bg-white ">
                   <div className="col-md-6 px-0">
-                    <img className="img-fluid" src="/public/hero2.png" alt="" />
+                    <img className="img-fluid" src="/hero2.png" alt="" />
                   </div>
                   <div className="col-md-6 d-flex align-items-center ">
                     <div className="testimonial-content ">
@@ -53,11 +53,11 @@ export default function Testimonials() {
                         5.0 <small>star</small>
                       </div>
                       <div className="stars">
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
-                        <img src="/public/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
+                        <img src="/Star 1.svg" alt="" />
                       </div>
                       <p>
                         “I feel very secure when using caretall's services. Your
