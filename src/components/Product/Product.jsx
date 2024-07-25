@@ -9,11 +9,7 @@ export default function Product(props) {
       <div id="product" className="col-md-3  col-6 my-3">
         <div className="card">
           <div className="p-4">
-            <img
-              src={`/public/Audi 1.png`}
-              className="card-img-top"
-              alt="blueCar"
-            />
+            <img src={`/greenCar.png`} className="card-img-top" alt="blueCar" />
           </div>
           <div className="card-body">
             <h5 className="card-title">
@@ -23,7 +19,7 @@ export default function Product(props) {
 
             <p className="card-text ">
               <span>
-                <img className="img-flui" src="/public/Star 1.svg" alt="" />
+                <img className="img-flui" src="/Star_1.svg" alt="" />
               </span>
               <span className="rating mx-1">4.8</span>
               <span className="reviews text-muted">(2436 reviews)</span>

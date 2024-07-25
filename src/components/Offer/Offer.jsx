@@ -9,14 +9,14 @@ export default function Offer() {
           <div className="row">
             <div className="col-md-6  d-flex align-items-center">
               <div className="offer-img">
-                <img className="img-fluid" src="/Audi 1.png" alt="" />
+                <img className="img-fluid" src="/Audi_1.png" alt="" />
               </div>
             </div>
             <div className="col-md-6">
               <div className="offer-content">
                 <div className="sec-title ">
-                  <span>HOW IT WORK</span>
-                  <h2>Rent with following 3 working steps</h2>
+                  <span>WHY CHOOSE US</span>
+                  <h2>We offer the best experience with our rental deals</h2>
                 </div>
                 <div className="offer-text my-4">
                   <div className="row offer-item">
@@ -24,7 +24,7 @@ export default function Offer() {
                       <div className="img">
                         <img
                           className="img-fluid"
-                          src="/money icon.png"
+                          src="/money_icon.png"
                           alt=""
                         />
                       </div>
@@ -66,11 +66,7 @@ export default function Offer() {
                   <div className="row offer-item">
                     <div className="col-2">
                       <div className="img">
-                        <img
-                          className="img-fluid"
-                          src="/24.png"
-                          alt=""
-                        />
+                        <img className="img-fluid" src="/24.png" alt="" />
                       </div>
                     </div>
                     <div className="col-10">

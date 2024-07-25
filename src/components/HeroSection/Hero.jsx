@@ -14,7 +14,7 @@ export default function Hero() {
             Android device.
           </p>
           <div className="d-flex ">
-            <img className="img-fluid " src="/google play.png" alt="" />
+            <img className="img-fluid " src="/google_play.png" alt="" />
           <img className=" mx-3" src="/app_store.png" alt="" />
           </div>
         </article>

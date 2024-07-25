@@ -19,8 +19,8 @@ export default function Download() {
                   </h1>
                   <p>For faster, easier booking and exclusive deals.</p>
                   <div className="d-flex ">
-                    <img className="img-fluid " src="/google play.png" alt="" />
-                    <img className=" mx-3" src="/app store.png" alt="" />
+                    <img className="img-fluid " src="/google_play.png" alt="" />
+                    <img className=" mx-3" src="/app_store.png" alt="" />
                   </div>
                 </article>
                 <form className="form pt-5 ">
@@ -59,11 +59,7 @@ export default function Download() {
             </div>
             <div className="col-md-6">
               <div className=" d-flex justify-content-end">
-                <img
-                  className=""
-                  src="/iPhone 14 Pro Space Black Mockup.png"
-                  alt=""
-                />
+                <img className="" src="/iPhone14Mockup.png" alt="" />
               </div>
             </div>
           </div>

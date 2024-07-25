@@ -9,19 +9,19 @@ export default function Footer() {
           <div className="row">
             <div className="col f-1">
               <h3>
-                <img src="/public/logo white.png" alt="" />
+                <img src="/logo white.png" alt="" />
               </h3>
               <ul className="list-unstyled">
                 <li>
-                  <img src="/public/locationn.svg" alt="" />
+                  <img src="/locationn.svg" alt="" />
                   <span>25566 Hc 1, Glenallen, Alaska, 99588, USA</span>
                 </li>
                 <li>
-                  <img src="/public/call.svg" alt="" />
+                  <img src="/call.svg" alt="" />
                   <span>+603 4784 273 12</span>
                 </li>
                 <li>
-                  <img src="/public/sms.png" alt="" />
+                  <img src="/sms.png" alt="" />
                   <span>rentcars@gmail.com</span>
                 </li>
               </ul>
@@ -105,7 +105,9 @@ export default function Footer() {
             </div>
           </div>
           <hr />
-          <p className="copyright">Copyright 2024 ・ Rentcars, All Rights Reserved</p>
+          <p className="copyright">
+            Copyright 2024 ・ Rentcars, All Rights Reserved
+          </p>
         </div>
       </footer>
     </>
