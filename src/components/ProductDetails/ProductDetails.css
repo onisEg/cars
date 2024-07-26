@@ -1,0 +1,25 @@
+.breadcrmp p {
+  color: #959595;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 146%; /* 46.72px */
+}
+
+#carDetails .breadcrmp a{
+  text-decoration: none;
+  color: #959595;;
+}
+#carDetails .offer-item .col-10{
+  display: flex;
+  align-items: center;
+}
+
+#carDetails .offer-item .col-10 div .h5{
+color: #959595;
+  
+  
+}
+#carDetails .offer-item .col-10 div .h4{
+text-transform: capitalize;
+}

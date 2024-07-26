@@ -25,7 +25,9 @@ export default function Cars() {
     <>
       <div id="cars" className="container py-5 my-5">
         <div className="row breadcrmp">
-          <p>Home/Cars</p>
+          <p className="">
+            <Link to="/">Home</Link> /<Link to="/cars">cars</Link>
+          </p>
         </div>
 
         <div className="sec-title text-center mt-5">

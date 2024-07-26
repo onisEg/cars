@@ -5,3 +5,8 @@
   font-weight: 500;
   line-height: 146%; /* 46.72px */
 }
+
+#cars .breadcrmp a{
+  text-decoration: none;
+  color: #959595;;
+}

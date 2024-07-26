@@ -16,7 +16,6 @@ export default function Product(props) {
               {carInfo.make} <small>({carInfo.year})</small>
             </h5>
             <p className="small">{carInfo.model}</p>
-
             <p className="card-text ">
               <span>
                 <img className="img-flui" src="/Star_1.svg" alt="" />
@@ -27,38 +26,38 @@ export default function Product(props) {
             <div className="features row">
               <div className="col-6">
                 <span className="passagers">
-                  <i class="fa fa-calendar-alt "></i>
+                  <i className="fa fa-calendar-alt "></i>
                   <span className="mx-1">{carInfo.year}</span>
                   year
                 </span>
               </div>
               <div className="col-6">
                 <span className="passagers">
-                  <i class="fa-solid fa-palette"></i>
+                  <i className="fa-solid fa-palette"></i>
                   <span className="mx-1">{carInfo.color}</span>
                 </span>
               </div>
               <div className="col-6">
                 <span className="passagers">
-                  <i class="bi bi-fuel-pump"></i>
+                  <i className="bi bi-fuel-pump"></i>
                   <span className="mx-1">{carInfo.fuelType}</span>
                 </span>
               </div>
               <div className="col-6">
                 <span className="passagers">
-                  <i class="bi bi-airplane-engines"></i>
+                  <i className="bi bi-airplane-engines"></i>
                   <span className="mx-1">{carInfo.engine}</span>
                 </span>
               </div>
               <div className="col-6">
                 <span className="passagers">
-                  <i class="fa-solid fa-house-tsunami"></i>
+                  <i className="fa-solid fa-house-tsunami"></i>
                   <span className="mx-1">{carInfo.horsepower}</span>
                 </span>
               </div>
               <div className="col-6">
                 <span className="passagers">
-                  <i class="fa-solid fa-person-military-pointing"></i>
+                  <i className="fa-solid fa-person-military-pointing"></i>
                   <span className="mx-1">{carInfo.mileage}</span>
                 </span>
               </div>
@@ -72,7 +71,10 @@ export default function Product(props) {
               </div>
             </div>
             <button className="btn-rent py-2 btn w-100 d-flex justify-content-center align-items-center">
-              <Link to="#" className="text-decoration-none">
+              <Link
+                to={`/product/${carInfo.id}`}
+                className="text-decoration-none"
+              >
                 Rent Now
                 <i className="fa-solid fa-arrow-right-long mx-3"></i>
               </Link>
