@@ -7,9 +7,9 @@ export default function Footer() {
       <footer className="pt-5 pb-1">
         <div className="container">
           <div className="row">
-            <div className="col-md f-1">
+            <div className="col-md-4 f-1">
               <h3>
-                <img src="/logo white.png" alt="" />
+                <img src="/logo_white.png" alt="" />
               </h3>
               <ul className="list-unstyled">
                 <li>
