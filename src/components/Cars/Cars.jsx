@@ -7,11 +7,19 @@ import axios from "axios";
 
 export default function Cars() {
   const [cars, setCars] = useState([]);
+
+  const [searchTerm, setSearchTerm] = useState("");
+  const filteredCars = cars.filter(
+    (car) =>
+      car.make.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      car.model.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   let getCars = async () => {
     try {
       const res = await axios.get("https://freetestapi.com/api/v1/cars");
       setCars(res.data);
-      console.log(cars);
+      // console.log(cars);
     } catch (err) {
       console.log(err);
     }
@@ -20,7 +28,10 @@ export default function Cars() {
   useEffect(() => {
     getCars();
   }, []);
-
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value);
+    // console.log(event.target.value);
+  };
   return (
     <>
       <div id="cars" className="container py-5 my-5">
@@ -34,8 +45,23 @@ export default function Cars() {
           <span>POPULAR RENTAL DEALS</span>
           <h2>Most popular cars rental deals</h2>
         </div>
+        <div className="search  d-flex align-items-center form-control my-4">
+          <span>
+            <img src="/location.svg" alt="" />
+          </span>
+          <input
+            type="text"
+            className=""
+            value={searchTerm}
+            onChange={handleSearchChange}
+            placeholder="Search By Name"
+          />
+          <button className="btn btn-info ">
+            <Link>Search</Link>
+          </button>
+        </div>
         <div className="row">
-          {cars.map((car) => (
+          {filteredCars.map((car) => (
             <Product key={car.id} carInfo={car} />
           ))}
         </div>
