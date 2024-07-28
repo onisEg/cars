@@ -9,6 +9,7 @@ export default function Cars() {
   const [cars, setCars] = useState([]);
 
   const [searchTerm, setSearchTerm] = useState("");
+  
   const filteredCars = cars.filter(
     (car) =>
       car.make.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -28,10 +29,7 @@ export default function Cars() {
   useEffect(() => {
     getCars();
   }, []);
-  const handleSearchChange = (event) => {
-    setSearchTerm(event.target.value);
-    // console.log(event.target.value);
-  };
+ 
   return (
     <>
       <div id="cars" className="container py-5 my-5">
@@ -46,19 +44,17 @@ export default function Cars() {
           <h2>Most popular cars rental deals</h2>
         </div>
         <div className="search  d-flex align-items-center form-control my-4">
-          <span>
-            <img src="/location.svg" alt="" />
+          <span className="mx-2">
+            <img  src="/location.svg" alt="" />
           </span>
           <input
             type="text"
             className=""
             value={searchTerm}
-            onChange={handleSearchChange}
+            onChange={(e)=>setSearchTerm(e.target.value)}
             placeholder="Search By Name"
           />
-          <button className="btn btn-info ">
-            <Link>Search</Link>
-          </button>
+
         </div>
         <div className="row">
           {filteredCars.map((car) => (

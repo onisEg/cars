@@ -5,7 +5,14 @@ import Product from "../Product/Product";
 import axios from "axios";
 
 export default function Popular() {
+  const [searchTerm, setSearchTerm] = useState("");
+  // console.log(searchTerm);
   const [cars, setCars] = useState([]);
+  const filteredCars = cars.filter(
+    (car) =>
+      car.make.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      car.model.toLowerCase().includes(searchTerm.toLowerCase())
+  );
   let getCars = async () => {
     try {
       const res = await axios.get(
@@ -28,10 +35,12 @@ export default function Popular() {
           <span>
             <img src="/location.svg" alt="" />
           </span>
-          <input type="text" className="" placeholder="Search By Name" />
-          <button className="btn btn-info ">
-            <Link>Search</Link>
-          </button>
+          <input
+            onChange={(e) => setSearchTerm(e.target.value)}
+            type="text"
+            className=""
+            placeholder="Search By Name"
+          />
         </div>
         <div className="sec-title text-center mt-5">
           <span>POPULAR RENTAL DEALS</span>
@@ -39,7 +48,7 @@ export default function Popular() {
         </div>
 
         <div className="row">
-          {cars.map((car) => (
+          {filteredCars.map((car) => (
             <Product carInfo={car} />
           ))}
         </div>
