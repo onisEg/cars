@@ -16,7 +16,7 @@
   text-align: left;
   flex: 1;
   /* background-color: aquamarine; */
-  padding: 0 20px;
+  /* padding: 0 20px; */
   &:focus {
     outline: none;
   }
@@ -57,10 +57,22 @@
 .show-all {
   font-size: 14px !important;
   color: #4e4e4e !important;
-  border: 1px solid #E0E0E0 !important;
+  border: 1px solid #e0e0e0 !important;
   padding: 10px 40px !important;
-  &:hover{
+  &:hover {
     color: var(--blue) !important;
     border: 1px solid var(--blue) !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sec-title h2 {
+    font-size: 24px;
+  }
+  #popular .search input {
+    width: 100%;
+  }
+  .features button a {
+    font-size: 10px !important;
   }
 }

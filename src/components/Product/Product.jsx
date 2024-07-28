@@ -24,38 +24,38 @@ export default function Product(props) {
               <span className="reviews text-muted">(2436 reviews)</span>
             </p>
             <div className="features row">
-              <div className="col-6">
+              <div className="col-md-6">
                 <span className="passagers">
                   <i className="fa fa-calendar-alt "></i>
                   <span className="mx-1">{carInfo.year}</span>
                   year
                 </span>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <span className="passagers">
                   <i className="fa-solid fa-palette"></i>
                   <span className="mx-1">{carInfo.color}</span>
                 </span>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <span className="passagers">
                   <i className="bi bi-fuel-pump"></i>
                   <span className="mx-1">{carInfo.fuelType}</span>
                 </span>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <span className="passagers">
                   <i className="bi bi-airplane-engines"></i>
                   <span className="mx-1">{carInfo.engine}</span>
                 </span>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <span className="passagers">
                   <i className="fa-solid fa-house-tsunami"></i>
                   <span className="mx-1">{carInfo.horsepower}</span>
                 </span>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <span className="passagers">
                   <i className="fa-solid fa-person-military-pointing"></i>
                   <span className="mx-1">{carInfo.mileage}</span>
@@ -64,8 +64,8 @@ export default function Product(props) {
             </div>
             <hr className="bg-gray" />
             <div className="row ">
-              <div className="col-6">Price</div>
-              <div className="col-6 text-end">
+              <div className="col-md-6">Price</div>
+              <div className="col-md-6 text-md-end">
                 <span className="price">${carInfo.price}</span>
                 <span className="per">/day</span>
               </div>

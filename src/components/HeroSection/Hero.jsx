@@ -4,7 +4,7 @@ import "./Hero.css";
 export default function Hero() {
   return (
     <>
-      <div className="sec-1 d-flex justify-content-between align-items-center py-5 row">
+      <div className="sec-1  py-5 row ">
         <article>
           <h1>
             Find, book and rent a car <span>Easily</span>
@@ -13,12 +13,12 @@ export default function Hero() {
             Get a car wherever and whenever you need it with your IOS and
             Android device.
           </p>
-          <div className="d-flex ">
+          <div className="d-flex down-img">
             <img className="img-fluid " src="/google_play.png" alt="" />
             <img className=" mx-3" src="/app_store.png" alt="" />
           </div>
         </article>
-        <img className="" src="/carHome.png" alt="" />
+        <img className="hero-car-img" src="/carHome.png" alt="" />
       </div>
     </>
   );

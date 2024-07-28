@@ -10,16 +10,12 @@
   text-decoration: none;
   color: #959595;;
 }
-#carDetails .offer-item .col-10{
-  display: flex;
-  align-items: center;
-}
 
-#carDetails .offer-item .col-10 div .h5{
-color: #959595;
-  
-  
+.car-item li {
+  color: #959595;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
-#carDetails .offer-item .col-10 div .h4{
-text-transform: capitalize;
+.car-item li i{
+  margin-right: 10px;
 }

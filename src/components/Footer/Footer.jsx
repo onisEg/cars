@@ -7,7 +7,7 @@ export default function Footer() {
       <footer className="pt-5 pb-1">
         <div className="container">
           <div className="row">
-            <div className="col f-1">
+            <div className="col-md f-1">
               <h3>
                 <img src="/logo white.png" alt="" />
               </h3>
@@ -26,7 +26,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col-md">
               <h3>Our Product</h3>
               <ul className="list-unstyled">
                 <li>
@@ -46,7 +46,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col-md">
               <h3>Resources</h3>
               <ul className="list-unstyled">
                 <li>
@@ -69,7 +69,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col-md">
               <h3>About Rentcars</h3>
               <ul className="list-unstyled">
                 <li>
@@ -89,7 +89,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col social">
+            <div className="col-md social">
               <h3>Follow Us</h3>
               <ul className="list-unstyled">
                 <li>

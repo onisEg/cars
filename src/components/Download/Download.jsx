@@ -11,14 +11,14 @@ export default function Download() {
       >
         <div className="container">
           <div className="row">
-            <div className="col-md-6 d-flex align-items-center">
+            <div className="col-md-6 d-flex align-items-center pb-3">
               <div className="">
                 <article>
                   <h1>
                     Download Rentcars <br /> App for <span>FREE</span>
                   </h1>
                   <p>For faster, easier booking and exclusive deals.</p>
-                  <div className="d-flex ">
+                  <div className="d-md-flex ">
                     <img className="img-fluid " src="/google_play.png" alt="" />
                     <img className=" mx-3" src="/app_store.png" alt="" />
                   </div>
@@ -48,7 +48,6 @@ export default function Download() {
                       placeholder="Email"
                     />
                   </div>
-
                   <button className="btn-send btn ">
                     <Link to="#" className="text-decoration-none">
                       Send

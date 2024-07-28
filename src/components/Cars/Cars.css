@@ -6,7 +6,38 @@
   line-height: 146%; /* 46.72px */
 }
 
-#cars .breadcrmp a{
+#cars .breadcrmp a {
   text-decoration: none;
-  color: #959595;;
+  color: #959595;
+}
+#cars .search input {
+  border: 0;
+  background-color: transparent;
+  text-align: left;
+  flex: 1;
+  /* background-color: aquamarine; */
+  /* padding: 0 20px; */
+  &:focus {
+    outline: none;
+  }
+}
+
+#cars .search button {
+  padding: 5px 30px;
+  background-color: var(--blue);
+  transition: all 0.5s;
+  &:hover {
+    border: 1px solid var(--blue) !important;
+    background-color: white !important;
+    color: black !important;
+  }
+  &:hover a {
+    color: var(--blue);
+  }
+}
+#cars .search button a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-size: 14px !important;
 }
